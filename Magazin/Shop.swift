@@ -35,6 +35,11 @@ class Shop {
         }
     }
 
+    func sellTwo() {
+        sell()
+        sell()
+    }
+
     func moveItemsToShelf() {
         items.append(contentsOf: storage)
         storage = []
