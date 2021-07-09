@@ -50,6 +50,7 @@ class Shop {
     private func addItemsFromStorage() {
         if storage.isEmpty {
             updateWorkingStatus()
+            print("wdvfjdsbfkhdbfkdjfbdfj")
         } else {
             items.append(storage[0])
             UserDefaults.standard.set(items, forKey: "ShopShelf")
